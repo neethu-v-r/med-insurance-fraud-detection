@@ -1,0 +1,101 @@
+/* General Page Styles */
+body {
+    font-family: 'Poppins', Poppins;
+    background-image: url('/public/images/bg3.png.jpg');  /* Light blue-gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main Container */
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Form Styling */
+  .register-form {
+    width: 450px;
+    padding: 30px;
+    background: #B0C4DE;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Title */
+  .register-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels */
+  .input-label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  /* Input Fields */
+  .input-box {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* First Name & Last Name Fields */
+  .name-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name-container div {
+    width: 48%;
+  }
+  
+  
+  /* Buttons */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .register-btn, .login-btn {
+    width: 45%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(to right, #3A1DFF, #5A3FFF);
+  }
+  
+  .register-btn :hover{
+    background: #3498db;
+    color: white;
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+
+  }
+  
+  .login-btn {
+    background: #d3d3d3;
+    color: black;
+  }
+  
